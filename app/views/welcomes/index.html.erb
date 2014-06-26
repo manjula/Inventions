@@ -1,0 +1,15 @@
+<p id="headline">Make me walk!</p>
+<form>
+
+<%= content_tag(:div, id: "mydiv") do -%>
+<%= image_tag 'mn.png', :id=>'man'%>
+<%end -%>
+<p>
+<div id="mybuttons">
+<input type="button" value="Start" class="btn" onclick="moveRight();" />
+<input type="button" value="Stop" class="btn" onclick="stop();" />
+<input type="button" value="Reset" class="btn" onclick="moveLeft();" />
+</div>
+</p>
+
+</form>
