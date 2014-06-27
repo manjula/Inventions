@@ -1,4 +1,6 @@
 class WelcomesController < ApplicationController
+
+  layout 'welcome'
   before_action :set_welcome, only: [:show, :edit, :update, :destroy]
 
   # GET /welcomes
